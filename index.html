@@ -4,12 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo HTML</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <title>CV Jorhan Alfaro Vargas</title>
 </head>
 
-<body>
-    <h1>Hola</h1>
-    <h2>Prueba</h2>
+<body style="background-image: url('img/fondo2.jpg')">
+
+    <h1>Jorhan David Alfaro Vargas</h1>
+    <h2>IT Specialist</h2>
+    <hr />
+
+    <nav>
+        <ul id="menuhorizontal">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#ancla1">Información</a></li>
+            <li><a href="#ancla2">Académico</a></li>
+            <li><a href="#ancla3">Cursos</a></li>
+            <li><a href="#ancla4">Experiencia</a></li>
+            <li><a href="#ancla5">Hobbies</a></li>
+
+        </ul>
+        <br>
+        <hr />
+    </nav>
+
+    <div style="text-align:left;">
+        <img src="img/jorhan.jfif" width="200" height="250">
+        
+    </div>
+
+    <div class="contenedor">
+        <div>
+
+            <aside>
+                <a name="ancla1" ></a>
+                <h1>Información Personal</h1>
+                <p>Dirección: Alajuela, Costa Rica <br> Célular: 60223518 <br> Email: jorhanalfavar@gmail.com</p>
+                <p><a href="https://www.linkedin.com/in/jorhan-alfaro-vargas-b15639208/" target="_blank">Perfil de LinkedIn</a></p>
+                <a name="ancla5" ></a>
+                <h1>Hobbies</h1>
+                <p>Fútbol <br> Música <br> Video juegos <br> Conocer lugares</p>
+            
+            </aside>
+        </div>
+    
+        <div class="caja1"> 
+            <main>
+                <article >
+                    <a name="ancla2" ></a>
+                    <h1>Información académica</h1>
+                    <p>
+                        2019 – 2021 • CTP Jesús Ocaña Rojas <br>
+                        Bachelor in Middle Education <br>
+                        Middle Technician in Business Technology <br><br>
+            
+                        Jan 2022 – Present • Universidad Técnica Nacional <br>
+                        Software Development Engineering
+            
+                    </p>
+                </article>
+                    
+                <article>
+                    <a name="ancla3" ></a>
+                    <h1>Cursos Especializados</h1>
+                    <p>
+                        2019 • IT Essentials • Cisco Academy <br>
+                        2019 • English B2 • Academia Líder <br>
+                        2020 • Excel Advanced • Cámara de Comercio Exterior <br>
+                        2021 • CCNA I • Cisco Academy <br>
+                        2021 • Linux Unhatched • Cisco Academy <br>
+                        2021 • Customer Service • Fundepos <br>
+                        2022 • Uipath Introduction - Coursera <br>
+        
+                    </p>
+                </article>
+            </main>    
+        </div>
+    </div>
+
+   
+
+    <br>
+    <a name="ancla4" ></a>
+    <table class="table" border="1">
+        <caption>Experiencia Laboral</caption>
+        <tr>
+            <td>Periodo</td>
+            <td>Puesto</td>
+            <td>Empresa</td>
+            <td>Descripción</td>
+        </tr>
+        <tr>
+            <td>Oct 2021 – Dic 2021.</td>
+            <td>Software Developer • Intern.</td>
+            <td>InnovaJC.</td>
+            <td>Program development for sport academy.</td>
+        </tr>
+        <tr>
+            <td> Mar 2022 - June 2023.</td>
+            <td>IT Specialist • Intermediate.</td>
+            <td>Equifax.</td>
+            <td>Provide remote and on-site technical support to the different company systems.</td>
+        </tr>
+        <tr>
+            <td>June 2023 - Present.</td>
+            <td>RPA Platform Administraror.</td>
+            <td>Equifax.</td>
+            <td>Provide support in RPA platform environment.</td>
+        </tr>
+
+    </table>
+    <hr />
+    
+    <footer>
+        <div class="contenedor">   
+            <p>CV JorhanAlfaro.</p>
+            <p>Derechos de autor © 2023.</p>
+        </div>
+        
+
+    </footer>
+
+    
 </body>
 
 </html>
