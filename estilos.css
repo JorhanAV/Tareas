@@ -34,3 +34,24 @@
     text-align: center;
     margin: 0 auto;
 }
+
+h1{
+    color : rgb(8, 5, 0);
+}
+
+caption{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+p{
+    font-size: 20px;
+}
+
+td{
+    font-size: 20px;
+}
+
+.cabecera{
+    background-color: rgb(2, 148, 87);
+}
